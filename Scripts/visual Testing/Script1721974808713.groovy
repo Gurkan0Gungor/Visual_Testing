@@ -50,6 +50,5 @@ WebUI.setText(findTestObject('Object Repository/Visual Testing/Page_CURA Healthc
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/button_Book Appointment'))
 
 //WebUI.takeAreaScreenshot('Screenshots/Appointment Confirmation.png', findTestObject(null))
-
-WebUI.takeScreenshotAsCheckpoint('Apt_Conf')
+WebUI.takeScreenshotAsCheckpoint('Apt_Conf', FailureHandling.STOP_ON_FAILURE)
 
