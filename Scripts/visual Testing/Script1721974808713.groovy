@@ -45,7 +45,7 @@ WebUI.setText(findTestObject('Object Repository/Visual Testing/Page_CURA Healthc
 WebUI.sendKeys(findTestObject('Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), Keys.chord(Keys.TAB))
 
 WebUI.setText(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/textarea_Comment_comment'), 
-    'test')
+    'deneme')
 
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/button_Book Appointment'))
 
